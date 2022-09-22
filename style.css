@@ -1,0 +1,126 @@
+body {
+  background-color: #000;
+}
+
+
+.title {
+  color: white;
+  position: relative;
+  top: 400px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.display-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-align: center;
+}
+
+.flex-vertical {
+  flex-direction: column;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.drawing {
+  width: 500px;
+  height: 500px;
+  background: red;
+}
+
+.flower {
+  position: relative;
+}
+
+.slice {
+  z-index: 1;
+  box-shadow: 0 0 10px #000;
+  position: absolute;
+  transform: rotate(10deg);
+  border-radius: 20px 90%;
+  height: 100px;
+  width: 100px;
+  background: rgb(250, 224, 0);
+}
+
+.slice.two {
+  transform: rotate(45deg);
+  left: 49px;
+  top: -20px;
+}
+
+.slice.three {
+  transform: rotate(95deg);
+  left: 90px;
+  top: 5px;
+  ;
+}
+
+.slice.four {
+  left: 110px;
+  top: 60px;
+  transform: rotate(150deg);
+}
+
+.slice.five {
+  left: 80px;
+  top: 100px;
+  transform: rotate(190deg);
+}
+
+.slice.six {
+  left: 20px;
+  top: 100px;
+  transform: rotate(250deg);
+}
+
+.slice.seven {
+  left: -20px;
+  top: 55px;
+  transform: rotate(300deg);
+}
+
+.round {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 75px;
+  left: 82px;
+  box-shadow: 0 0 34px #5d0404;
+  z-index: 3;
+  background: #654321
+}
+
+.leaf {
+  position: absolute;
+  border-radius: 0 90%;
+  height: 100px;
+  width: 100px;
+  background-color: #63b307;
+  top: 232px;
+  left: -8px;
+  box-shadow: 0 0 10px #000000;
+  z-index: 3;
+}
+
+.leaf.right {
+  top: 180px;
+  left: 102px;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+
+.body {
+  position: absolute;
+  width: 10px;
+  height: 200px;
+  background-color: #0e4b11;
+  top: 160px;
+  left: 92px;
+}
